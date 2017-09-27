@@ -19,7 +19,7 @@ public class DialogUtils {
             selectedDevice) {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(activity);
         alertDialog.setTitle(selectedDevice.getDeviceName());
-        String[] types = {"Share image", "Chat"};
+        String[] types = {"Share file", "Chat"};
         alertDialog.setItems(types, new DialogInterface.OnClickListener() {
 
             @Override
@@ -29,7 +29,7 @@ public class DialogUtils {
                 switch (which) {
                     case 0:
                         Intent imagePicker = new Intent(Intent.ACTION_PICK);
-                        imagePicker.setType("image/*");
+                        imagePicker.setType("*/*");
                         activity.startActivityForResult(imagePicker, CODE_PICK_IMAGE);
                         break;
                     case 1:
