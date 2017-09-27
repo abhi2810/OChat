@@ -11,9 +11,6 @@ import org.drulabs.Ochat.model.DeviceDTO;
 import org.drulabs.Ochat.notification.NotificationToast;
 import org.drulabs.Ochat.transfer.DataSender;
 
-/**
- * Authored by KaushalD on 9/2/2016.
- */
 public class DialogUtils {
 
     public static final int CODE_PICK_IMAGE = 21;

@@ -7,9 +7,6 @@ import android.util.Log;
 import java.io.IOException;
 import java.net.ServerSocket;
 
-/**
- * Authored by KaushalD on 6/28/2016.
- */
 public class ConnectionUtils {
 
     public static int getPort(Context context) {

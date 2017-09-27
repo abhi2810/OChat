@@ -12,9 +12,6 @@ import org.drulabs.Ochat.db.DBAdapter;
 import org.drulabs.Ochat.model.ChatDTO;
 import org.drulabs.Ochat.model.DeviceDTO;
 
-/**
- * Authored by KaushalD on 8/28/2016.
- */
 public class DataHandler {
 
     public static final String DEVICE_LIST_CHANGED = "device_list_updated";

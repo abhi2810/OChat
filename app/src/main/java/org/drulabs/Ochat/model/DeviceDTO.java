@@ -6,9 +6,6 @@ import com.google.gson.Gson;
 
 import java.io.Serializable;
 
-/**
- * Authored by KaushalD on 8/26/2016.
- */
 public class DeviceDTO implements Serializable {
 
     private String deviceName = Build.MODEL;

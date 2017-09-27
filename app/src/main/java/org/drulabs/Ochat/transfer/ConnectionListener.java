@@ -21,9 +21,6 @@ import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/**
- * Authored by KaushalD on 8/28/2016.
- */
 public class ConnectionListener extends Thread {
 
     private int mPort;

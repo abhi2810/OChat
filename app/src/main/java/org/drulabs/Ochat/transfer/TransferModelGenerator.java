@@ -3,9 +3,6 @@ package org.drulabs.Ochat.transfer;
 import org.drulabs.Ochat.model.ChatDTO;
 import org.drulabs.Ochat.model.DeviceDTO;
 
-/**
- * Authored by KaushalD on 8/28/2016.
- */
 public class TransferModelGenerator {
 
     public static ITransferable generateDeviceTransferModelRequest(DeviceDTO device) {

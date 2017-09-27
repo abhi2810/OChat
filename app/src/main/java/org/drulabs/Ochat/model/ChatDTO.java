@@ -4,9 +4,6 @@ import com.google.gson.Gson;
 
 import java.io.Serializable;
 
-/**
- * Authored by KaushalD on 8/29/2016.
- */
 public class ChatDTO implements Serializable {
 
     private String message;

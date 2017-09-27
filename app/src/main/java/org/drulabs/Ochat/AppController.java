@@ -5,9 +5,6 @@ import android.app.Application;
 import org.drulabs.Ochat.transfer.ConnectionListener;
 import org.drulabs.Ochat.utils.ConnectionUtils;
 
-/**
- * Authored by KaushalD on 9/1/2016.
- */
 public class AppController extends Application {
 
     private ConnectionListener connListener;

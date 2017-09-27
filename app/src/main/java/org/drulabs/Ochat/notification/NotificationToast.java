@@ -5,9 +5,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.Toast;
 
-/**
- * Authored by KaushalD on 8/28/2016.
- */
 public class NotificationToast {
 
     public static void showToast(final Context context, final String msg) {

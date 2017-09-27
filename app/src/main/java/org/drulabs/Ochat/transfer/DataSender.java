@@ -9,9 +9,6 @@ import org.drulabs.Ochat.model.DeviceDTO;
 import org.drulabs.Ochat.utils.ConnectionUtils;
 import org.drulabs.Ochat.utils.Utility;
 
-/**
- * Authored by KaushalD on 8/28/2016.
- */
 public class DataSender {
 
     public static void sendData(Context context, String destIP, int destPort, ITransferable data) {
